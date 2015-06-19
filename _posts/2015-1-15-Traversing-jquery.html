@@ -1,0 +1,90 @@
+---
+layout: default
+category: thoughts
+---
+<header class="header--interior">
+ <h1><a href="{{ site.baseurl }}" title="Back to Homepage"><img src="/apple-touch-icon.png"></a></h1>
+  <nav role="navigation">
+    <ul>
+      <li><a  href="/#work">Work</a></li>
+      <li><a class="active" href="/#thoughts">Thoughts</a></li>
+      <li><a href="/about">About</a></li>
+    </ul>
+  </nav>
+</header>
+
+
+<article class="page page--{{ page.category }}">
+
+
+
+  <time datetime="2015-02-18T16:57:51Z">
+    15 January 2015
+  </time>
+
+<p>Reading Time: <span class="eta"></span></p>  
+<h1 class="page-title">Traversing JQuery</h1>
+  
+   
+  <div class="content--post">
+    <p>There are some really great ways to speed up your JQuery, (which is really what getting good at developing is all about) like:</p>
+<ul>
+  <li>Always descend from an #id</li>
+  <li>Chaining your methods</li>
+  <li>Traversing the DOM</li>
+  <li>And many more</li>
+</ul>
+<p>
+I'd like to focus on traversing, since it's one of those magical features of JQuery that can be hard for beginners to comprehend.
+</p>
+
+<h2>What's it all about?</h2>
+<p>When first learning JQuery, the concept of traversing can be confusing. It's more typing, but it works faster. Why?
+</p>
+
+<p>First, check out this <a href="http://jsperf.com/find-select-speed-test/3">Speed Test</a>
+You'll see that the clear winner (by speed) is the traversal.</p>
+
+<p>Now, the explanation in the simplest terms I can provide.
+</p>
+
+<p>So we have a list of cheeses, wrapped in an unordered list with an id of "kindofCheese", in a div with an id of "cheese". With some basic knowledge of JQuery you may have learned that if you want to select the last cheese in that list, you would use the following code...</p>
+
+<pre>$(document).ready(function() {
+      $("#cheese li:last")
+    });</pre>
+
+<p>Sure, that will grab the last list element, but refactoring your code using traversal can make this query run faster.
+</p>
+
+<pre>$(document).ready(function() {
+      $("#cheese").find("li").last()
+    });</pre>
+
+<p>That <em>.find</em> method helps us traverse the DOM. It's similar to our first approach, as in it gets us the result we're looking for, but it's slightly faster because of a few reasons. 
+</p>
+
+<ol>
+  <li>JQuery is a library built *on top* of javascript. Javascript runs natively in your browser, whereas JQuery has to process it's own javascript code before handing it to the browser. JQuery uses a selector library called [sizzle]. All you really need to understand here is that it's not native to the DOM, so it's slower.</li>
+  <li>Here's where it gets tricky. When you use more than one element in a JQuery selector, it HAS to use <a href="http://sizzlejs.com/">Sizzle</a> to process. On the flip-side, if you use single elements in your selector, JQuery utilizes native DOM methods _(like getElementsByClassName, and getElementsByTagName)_ so you can take advantage of the native DOM speed benefits.</li>
+</ol>
+
+<h2>Short and Sweet</h2>
+<p>So when you're building out your mega-giant-monolith application keep in mind that refactoring your javascript can save you a significant amount of speed by traversing the DOM natively. Likewise, you can just stop using JQuery, and go full-metal-jacket style into javascript so that you're only using native DOM methods. 
+</p>
+
+<hr />
+
+<p>I hope this short article helps those who are beginning to learn JQuery to get a solid understanding of what things to look out for, so you can get started on the right foot and have an idea of where to start refactoring your code. 
+</p>
+
+  </div>
+  <div class="nav--share">
+    <a href="http://twitter.com/share" class="popup">
+      <span class="icon-twitter"></span>
+    </a>
+  </div>
+  {% include teaser.html %}
+  </div>
+
+</article>

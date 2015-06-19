@@ -1,0 +1,38 @@
+{% if page.previous %}
+<div class="paging">
+  <a rel="prev" href="{{ page.previous.url }}" class="paging__link" id="prev">
+    <h3>Previous Post</h3>
+    <h4>
+      {{ page.previous.title }}
+    </h4>
+  </a>
+</div>
+{% else %}
+<div class="paging">
+  <a rel="home" href="{{ site.baseurl }}" class="paging__link" id="next">
+    <h3>Go Home</h3>
+    <h4>
+      Game Over
+    </h4>
+  </a>
+</div>
+{% endif %}
+{% if page.next %}
+<div class="paging">
+  <a rel="next" href="{{ page.next.url }}" class="paging__link" id="next">
+    <h3>Next Post</h3>
+    <h4>
+      {{ page.next.title }}
+    </h4>
+  </a>
+</div>
+{% else %}
+<div class="paging">
+  <a rel="home" href="{{ site.baseurl }}" class="paging__link" id="next">
+    <h3>Go Home</h3>
+    <h4>
+      Game Over
+    </h4>
+  </a>
+</div>
+{% endif %}

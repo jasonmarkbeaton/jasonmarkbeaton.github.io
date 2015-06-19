@@ -1,0 +1,19 @@
+---
+layout: home
+---
+<section class="main">
+<nav class="tabs">
+  <a href="#work">Work</a>
+  <a href="#thoughts">Thoughts</a>
+</nav>
+{% for post in paginator.posts %}
+<ul class="posts">
+  <li>
+    <a href="{{ post.url }}" class="type--{{ post.category }}">
+    <span class="type">{{ post.category }}</span>
+    <h2>{{ post.title }}</h2>
+    </a>
+  </li>
+</ul>
+{% endfor %}
+</section>
