@@ -6,24 +6,36 @@
  * Kroc Camen, and the H5BP dev community and team.
  */
 
-/* =========================================================================
-    Media Queries
-    ======================================================================= */
-@media all and (min-width : 320px) and (max-width : 480px) {
-  
-  .main-content {
-    -webkit-flex: 2 0px;
-    flex: 2 0px;
-    order: 2;
-  }
+/* ==========================================================================
+   Responsive stuffs
+   ========================================================================== */
 
+@media screen and (min-width:601px){
+  .body {
+    padding: 80px 150px;
+  }
 }
 
-
+@media screen and (max-width:980px){
+  h2, h4 {
+    font-size: 13px !important;
+  }
+  .body {
+    padding: 10px;
+  }
+  .navigation {
+    display: block;
+    width: 100%;
+  }
+  .main-content {
+    display: block;
+  }
+}
 
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
+
 @font-face {
   font-family: Ale-Pro;
   src: url(../fonts/Ale-Pro.otf);
@@ -169,11 +181,6 @@ a:visited {
   display: block;
 }
 
-.body, .navigation {
-  flex: 1 100%;
-
-}
-
 .container .body {
   display: -webkit-box;
   display: -webkit-flex;
@@ -183,12 +190,11 @@ a:visited {
   -webkit-flex-grow: 1;
   -ms-flex-positive: 1;
   flex-grow: 1;
-  padding: 1% 150px;
+  /*padding: 80px 150px;*/
   background-color: aliceblue;
 }
 
 .container .navigation {
-  flex: 1 auto;
   -webkit-box-ordinal-group: 0;
   margin-right: 1.5%;
   clear: both;
