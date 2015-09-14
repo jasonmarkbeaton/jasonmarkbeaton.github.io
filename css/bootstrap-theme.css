@@ -105,6 +105,26 @@ header h3 {
 .hark-details a {
   margin-top: 40px;
 }
+.about-container {
+  border: 1px solid #0666F1;
+  background-color: #D4E5FE;
+  margin-top: 30px;
+  min-height: 150px;
+}
+.about-header h2 {
+  padding: 20px;
+  font-size: 24px;
+  font-family: 'Raleway', sans-serif;
+  text-align: center;
+}
+.about-details p {
+  color: #1777EE;
+  padding: 20px;
+  text-align: left;
+  font-size: 18px;
+  font-family: 'Raleway', sans-serif;
+  font-size: ;
+}
 .copyright ul li {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
