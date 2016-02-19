@@ -71,38 +71,38 @@ header h3 {
   font-size: 28px;
   line-height: 22px;
 }
-.hark-image img {
+.project-image img {
   width: 100%;
   height: auto;
   display: inline-block;
 }
-.hark-container {
+.project-container {
   margin-top: 50px;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
 }
 @media (max-width: 768px) {
-  .hark-container {
+  .project-container {
     padding: 0 15px;
   }
 }
-.hark-details h2 {
+.project-details h2 {
   font-size: 24px;
   font-weight: bold;
 }
-.hark-details h3 {
+.project-details h3 {
   font-size: 18px;
   line-height: 20px;
   color: #a4a4a4;
 }
-.hark-details p {
+.project-details p {
   font-size: 16px;
   line-height: 22px;
 }
-.hark-details i {
+.project-details i {
   color: #3e3e3e;
 }
-.hark-details a {
+.project-details a {
   margin-top: 40px;
 }
 .about-container {
@@ -125,13 +125,20 @@ header h3 {
   font-family: 'Raleway', sans-serif;
   font-size: ;
 }
-.copyright ul li {
+.copyright {
+  margin: 100px 0 100px 0;
+}
+.copyright button {
   font-family: 'Raleway', sans-serif;
   display: inline-block;
-  width: 60px;
+  width: 50px;
+  height: 50px;
   margin-left: auto;
   margin-right: auto;
   position: relative; 
+}
+.fa {
+  color: white;
 }
 /*End Custom Styles*/
 .btn-default,
