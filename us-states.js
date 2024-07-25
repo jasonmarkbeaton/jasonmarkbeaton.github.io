@@ -53,7 +53,7 @@ var statesData = {
             "id": "04",
             "properties": {
                 "name": "Arizona",
-                "status": 57.05
+                "status": 0
             },
             "geometry": {
                 "type": "Polygon",
@@ -1888,7 +1888,7 @@ var statesData = {
             "id": "35",
             "properties": {
                 "name": "New Mexico",
-                "status": 0
+                "status": 2
             },
             "geometry": {
                 "type": "Polygon",
@@ -3157,7 +3157,7 @@ var statesData = {
             "id": "56",
             "properties": {
                 "name": "Wyoming",
-                "status": 0
+                "status": 2
             },
             "geometry": {
                 "type": "Polygon",
