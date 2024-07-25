@@ -5,7 +5,7 @@ var statesData = {
             "id": "01",
             "properties": {
                 "name": "Alabama",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -53,7 +53,7 @@ var statesData = {
             "id": "04",
             "properties": {
                 "name": "Arizona",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -100,7 +100,7 @@ var statesData = {
             "id": "05",
             "properties": {
                 "name": "Arkansas",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -152,7 +152,7 @@ var statesData = {
             "id": "06",
             "properties": {
                 "name": "California",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -260,7 +260,7 @@ var statesData = {
             "id": "08",
             "properties": {
                 "name": "Colorado",
-                "status": 1
+                "status": 1,
             },
             "geometry": {
                 "type": "Polygon",
@@ -291,7 +291,7 @@ var statesData = {
             "id": "09",
             "properties": {
                 "name": "Connecticut",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -322,7 +322,7 @@ var statesData = {
             "id": "10",
             "properties": {
                 "name": "Delaware",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -350,7 +350,7 @@ var statesData = {
             "id": "11",
             "properties": {
                 "name": "District of Columbia",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -370,7 +370,7 @@ var statesData = {
             "id": "12",
             "properties": {
                 "name": "Florida",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -463,7 +463,7 @@ var statesData = {
             "id": "13",
             "properties": {
                 "name": "Georgia",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -529,7 +529,7 @@ var statesData = {
             "id": "16",
             "properties": {
                 "name": "Idaho",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
@@ -610,7 +610,7 @@ var statesData = {
             "id": "17",
             "properties": {
                 "name": "Illinois",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -692,7 +692,7 @@ var statesData = {
             "id": "18",
             "properties": {
                 "name": "Indiana",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -753,7 +753,7 @@ var statesData = {
             "id": "19",
             "properties": {
                 "name": "Iowa",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -818,7 +818,7 @@ var statesData = {
             "id": "20",
             "properties": {
                 "name": "Kansas",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -846,7 +846,7 @@ var statesData = {
             "id": "21",
             "properties": {
                 "name": "Kentucky",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -936,7 +936,7 @@ var statesData = {
             "id": "22",
             "properties": {
                 "name": "Louisiana",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1027,7 +1027,7 @@ var statesData = {
             "id": "23",
             "properties": {
                 "name": "Maine",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1108,7 +1108,7 @@ var statesData = {
             "id": "24",
             "properties": {
                 "name": "Maryland",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1193,7 +1193,7 @@ var statesData = {
             "id": "25",
             "properties": {
                 "name": "Massachusetts",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1243,7 +1243,7 @@ var statesData = {
             "id": "26",
             "properties": {
                 "name": "Michigan",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -1424,7 +1424,7 @@ var statesData = {
             "id": "27",
             "properties": {
                 "name": "Minnesota",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1522,7 +1522,7 @@ var statesData = {
             "id": "28",
             "properties": {
                 "name": "Mississippi",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1583,7 +1583,7 @@ var statesData = {
             "id": "29",
             "properties": {
                 "name": "Missouri",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1651,7 +1651,7 @@ var statesData = {
             "id": "30",
             "properties": {
                 "name": "Montana",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1718,7 +1718,7 @@ var statesData = {
             "id": "31",
             "properties": {
                 "name": "Nebraska",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1762,7 +1762,7 @@ var statesData = {
             "id": "32",
             "properties": {
                 "name": "Nevada",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1798,7 +1798,7 @@ var statesData = {
             "id": "33",
             "properties": {
                 "name": "New Hampshire",
-                "status": 1
+                "status": 1,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1841,7 +1841,7 @@ var statesData = {
             "id": "34",
             "properties": {
                 "name": "New Jersey",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1888,7 +1888,7 @@ var statesData = {
             "id": "35",
             "properties": {
                 "name": "New Mexico",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
@@ -1920,7 +1920,7 @@ var statesData = {
             "id": "36",
             "properties": {
                 "name": "New York",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2003,7 +2003,7 @@ var statesData = {
             "id": "37",
             "properties": {
                 "name": "North Carolina",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2079,7 +2079,7 @@ var statesData = {
             "id": "38",
             "properties": {
                 "name": "North Dakota",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2110,7 +2110,7 @@ var statesData = {
             "id": "39",
             "properties": {
                 "name": "Ohio",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2172,7 +2172,7 @@ var statesData = {
             "id": "40",
             "properties": {
                 "name": "Oklahoma",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2232,7 +2232,7 @@ var statesData = {
             "id": "41",
             "properties": {
                 "name": "Oregon",
-                "status": 1
+                "status": 1,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2303,7 +2303,7 @@ var statesData = {
             "id": "42",
             "properties": {
                 "name": "Pennsylvania",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2351,7 +2351,7 @@ var statesData = {
             "id": "44",
             "properties": {
                 "name": "Rhode Island",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2387,7 +2387,7 @@ var statesData = {
             "id": "45",
             "properties": {
                 "name": "South Carolina",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2446,7 +2446,7 @@ var statesData = {
             "id": "46",
             "properties": {
                 "name": "South Dakota",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2490,7 +2490,7 @@ var statesData = {
             "id": "47",
             "properties": {
                 "name": "Tennessee",
-                "status": 1
+                "status": 1,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2548,7 +2548,7 @@ var statesData = {
             "id": "48",
             "properties": {
                 "name": "Texas",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2715,7 +2715,7 @@ var statesData = {
             "id": "49",
             "properties": {
                 "name": "Utah",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2742,7 +2742,7 @@ var statesData = {
             "id": "50",
             "properties": {
                 "name": "Vermont",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
@@ -2785,7 +2785,7 @@ var statesData = {
             "id": "51",
             "properties": {
                 "name": "Virginia",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2890,7 +2890,7 @@ var statesData = {
             "id": "53",
             "properties": {
                 "name": "Washington",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "MultiPolygon",
@@ -2987,7 +2987,7 @@ var statesData = {
             "id": "54",
             "properties": {
                 "name": "West Virginia",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -3067,7 +3067,7 @@ var statesData = {
             "id": "55",
             "properties": {
                 "name": "Wisconsin",
-                "status": 0
+                "status": 0,
             },
             "geometry": {
                 "type": "Polygon",
@@ -3157,7 +3157,7 @@ var statesData = {
             "id": "56",
             "properties": {
                 "name": "Wyoming",
-                "status": 2
+                "status": 2,
             },
             "geometry": {
                 "type": "Polygon",
